@@ -42,7 +42,7 @@ export default class Signup extends Component {
     };
 
     return (
-      <div>
+      <div className='container'>
         <div className="box">
           <h1>Sign Up</h1>
           <input

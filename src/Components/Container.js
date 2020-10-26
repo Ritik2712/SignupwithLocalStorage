@@ -29,6 +29,7 @@ export default class Container extends Component {
       }
     };
     return (
+      <div className='container'>
       <div className="box">
         <h1>login</h1>
         <input
@@ -61,6 +62,7 @@ export default class Container extends Component {
             onClick={goToSignin}
           />
         </div>
+      </div>
       </div>
     );
   }
